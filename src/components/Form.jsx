@@ -4,8 +4,8 @@ const Form = () => {
 			<input type="text" name="name" placeholder="Enter your full name" />
 			<input type="email" name="email" placeholder="Enter your email address" />
 			<input type="tel" name="tel" placeholder="Enter your contact number" />
-			<input type="text" name="subject" placeholder="Enter query type" />
-			<textarea placeholder="message"></textarea>
+			<input type="text" name="industry" placeholder="Enter your industry" />
+			<textarea placeholder="message" className="md:col-span-2"></textarea>
 		</form>
 	);
 };

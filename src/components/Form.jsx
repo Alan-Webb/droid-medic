@@ -5,6 +5,10 @@ const Form = () => {
 			<input type="email" name="email" placeholder="Email" />
 			<input type="tel" name="tel" placeholder="Phone number" />
 			<input type="text" name="industry" placeholder="Industry" />
+			<input type="text" name="service" placeholder="Service" />
+			<input type="text" name="address" placeholder="Address" />
+			<input type="text" name="city" placeholder="City" />
+			<input type="text" name="zip-code" placeholder="Zip code" />
 			<textarea placeholder="message" className="md:col-span-2"></textarea>
 		</form>
 	);

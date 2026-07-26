@@ -10,6 +10,9 @@ const Form = () => {
 			<input type="text" name="city" placeholder="City" />
 			<input type="text" name="zip-code" placeholder="Zip code" />
 			<textarea placeholder="message" className="md:col-span-2"></textarea>
+			<button className="md:col-span-2 px-5 py-2 bg-amber-600 text-white uppercase">
+				Submit
+			</button>
 		</form>
 	);
 };

@@ -5,8 +5,8 @@ const Contact = () => {
 		<div>
 			<div>
 				{/* LEFT SIDE CONTENT */}
-				<div>
-					<h2>Contact Us</h2>
+				<div className="px-8">
+					<h2 className="text-2xl font-bold mb-2">Contact Us</h2>
 					<p>
 						Software updates, battery replacement or a complete overhaul, our
 						engineers will give you expert advice on getting your droid back to

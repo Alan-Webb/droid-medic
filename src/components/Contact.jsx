@@ -1,3 +1,5 @@
+import Form from "./Form";
+
 const Contact = () => {
 	return (
 		<div>
@@ -16,7 +18,9 @@ const Contact = () => {
 					</p>
 				</div>
 				{/* RIGHT SIDE FORM */}
-				<div></div>
+				<div>
+					<Form />
+				</div>
 			</div>
 		</div>
 	);

@@ -1,16 +1,58 @@
 const Form = () => {
 	return (
 		<form className="grid grid-cols-1 md:grid-cols-2 space-y-2">
-			<input type="text" name="name" placeholder="Full name" />
-			<input type="email" name="email" placeholder="Email" />
-			<input type="tel" name="tel" placeholder="Phone number" />
-			<input type="text" name="industry" placeholder="Industry" />
-			<input type="text" name="service" placeholder="Service" />
-			<input type="text" name="address" placeholder="Address" />
-			<input type="text" name="city" placeholder="City" />
-			<input type="text" name="zip-code" placeholder="Zip code" />
-			<textarea placeholder="message" className="md:col-span-2"></textarea>
-			<button className="md:col-span-2 px-5 py-2 bg-amber-600 text-white uppercase">
+			<input
+				type="text"
+				name="name"
+				placeholder="Full name"
+				className="p-2 border border-amber-400 rounded-xl bg-stone-200"
+			/>
+			<input
+				type="email"
+				name="email"
+				placeholder="Email"
+				className="p-2 border border-amber-400 rounded-xl bg-stone-200"
+			/>
+			<input
+				type="tel"
+				name="tel"
+				placeholder="Phone number"
+				className="p-2 border border-amber-400 rounded-xl bg-stone-200"
+			/>
+			<input
+				type="text"
+				name="industry"
+				placeholder="Industry"
+				className="p-2 border border-amber-400 rounded-xl bg-stone-200"
+			/>
+			<input
+				type="text"
+				name="service"
+				placeholder="Service"
+				className="p-2 border border-amber-400 rounded-xl bg-stone-200"
+			/>
+			<input
+				type="text"
+				name="address"
+				placeholder="Address"
+				className="p-2 border border-amber-400 rounded-xl bg-stone-200"
+			/>
+			<input
+				type="text"
+				name="city"
+				placeholder="City"
+				className="p-2 border border-amber-400 rounded-xl bg-stone-200"
+			/>
+			<input
+				type="text"
+				name="zip-code"
+				placeholder="Zip code"
+				className="p-2 border border-amber-400 rounded-xl bg-stone-200"
+			/>
+			<textarea
+				placeholder="Type your message"
+				className="md:col-span-2 p-2 border border-amber-400 rounded-xl bg-stone-200"></textarea>
+			<button className="md:col-span-2 px-5 py-2 rounded-xl bg-amber-600 text-white uppercase cursor-pointer my-3">
 				Submit
 			</button>
 		</form>

@@ -59,7 +59,7 @@ const reviews = [
 const Testimonials = () => {
 	return (
 		<div className="bg-stone-300 px-4 py-12">
-			<h1 className="text-center text-4xl font-bold text-amber-500 tracking-wider py-12">
+			<h1 className="text-center text-4xl font-bold text-amber-600 tracking-wider py-12">
 				What People Are Saying
 			</h1>
 			{/* TESTIMONIALS CARD */}

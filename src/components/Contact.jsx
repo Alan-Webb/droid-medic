@@ -2,11 +2,13 @@ import Form from "./Form";
 
 const Contact = () => {
 	return (
-		<div>
+		<div className="bg-stone-300">
 			<div>
 				{/* LEFT SIDE CONTENT */}
-				<div className="px-8">
-					<h2 className="text-2xl font-bold mb-2">Contact Us</h2>
+				<div className="px-8 md:px-0 pt-8">
+					<h2 className="text-4xl font-bold mb-2 text-center text-amber-600 tracking-wider">
+						Contact Us
+					</h2>
 					<p>
 						Software updates, battery replacement or a complete overhaul, our
 						engineers will give you expert advice on getting your droid back to
@@ -18,7 +20,8 @@ const Contact = () => {
 					</p>
 				</div>
 				{/* RIGHT SIDE FORM */}
-				<div>
+				<div className="mt-6 md:mt-0 px-8 md:px-0">
+					<h2 className="text-xl font-bold text-amber-600">Get A Quote</h2>
 					<Form />
 				</div>
 			</div>

@@ -52,7 +52,7 @@ const Form = () => {
 			<textarea
 				placeholder="Type your message"
 				className="md:col-span-2 p-2 border border-amber-400 rounded-xl bg-stone-200"></textarea>
-			<button className="md:col-span-2 px-5 py-2 rounded-xl bg-amber-600 text-white uppercase cursor-pointer my-3">
+			<button className="md:col-span-2 px-5 py-2 rounded-xl bg-amber-600 hover:bg-amber-700 transition duration-300 text-white tracking-wider uppercase cursor-pointer my-3">
 				Submit
 			</button>
 		</form>

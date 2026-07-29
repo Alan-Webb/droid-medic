@@ -5,7 +5,7 @@ const Contact = () => {
 		<div className="bg-stone-300">
 			<div>
 				{/* LEFT SIDE CONTENT */}
-				<div className="px-8 md:px-0 pt-8">
+				<div className="px-8 md:px-0 pt-8 mx-6">
 					<h2 className="text-4xl font-bold mb-2 text-center text-amber-600 tracking-wider">
 						Contact Us
 					</h2>
@@ -21,7 +21,7 @@ const Contact = () => {
 				</div>
 				{/* RIGHT SIDE FORM */}
 				<div className="mt-6 md:mt-0 px-8 md:px-0">
-					<h2 className="text-xl font-bold text-amber-600">Get A Quote</h2>
+					<h2 className="text-xl text-center font-bold text-amber-600 my-6">Get A Quote</h2>
 					<Form />
 				</div>
 			</div>

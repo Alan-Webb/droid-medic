@@ -21,7 +21,9 @@ const Contact = () => {
 				</div>
 				{/* RIGHT SIDE FORM */}
 				<div className="mt-6 md:mt-0 px-8 md:px-0">
-					<h2 className="text-xl text-center font-bold text-amber-600 my-6">Get A Quote</h2>
+					<h2 className="text-4xl text-center font-bold text-amber-600 my-6">
+						Get A Quote
+					</h2>
 					<Form />
 				</div>
 			</div>

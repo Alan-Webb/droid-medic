@@ -37,7 +37,7 @@ const Services = () => {
 			style={{backgroundImage: `url("${ServicesBG}")`}}
 			className="py-20 bg-cover bg-center">
 			<div className="max-w-7xl mx-auto">
-				{/* Heading */}
+				{/* HEADING */}
 				<h2 className="text-center text-4xl font-bold text-amber-500 tracking-wider">
 					Our Services
 				</h2>

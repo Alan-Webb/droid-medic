@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
 							technicians provide dependable solutions that keep your droid
 							performing at its very best
 						</p>
-						{/* Feature */}
+						{/* FEATURES */}
 						{/* Entry 1 */}
 						<div className="px-4 lg:px-0 mt-8 mb-6">
 							<h3 className="text-2xl font-extrabold mb-2">

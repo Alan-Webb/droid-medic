@@ -5,16 +5,16 @@ const Hero = () => {
 		<div>
 			<div className="relative h-[50vh] md:h-[90vh]">
 				<div className="relative">
-					{/* Image */}
+					{/* IMAGE */}
 					<img
 						src={Hero1}
 						alt="multi-purpose droids"
 						className="w-full h-[55vh] md:h-[90vh]"
 					/>
-					{/* Overlay */}
+					{/* OVERLAY */}
 					<div className="absolute inset-0 bg-linear-to-r from-black via-amber-900/30 to-amber-800/30"></div>
 				</div>
-				{/* Content */}
+				{/* CONTENT */}
 				<div className="absolute inset-12 flex items-center justify-start max-w-7xl text-amber-400">
 					<div className="max-w-lg">
 						<h1 className="hidden sm:block text-6xl font-bold mb-4">

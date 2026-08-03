@@ -7,6 +7,7 @@ const cities = [
 	"Copenhagen",
 	"Vienna",
 	"Zurich",
+	"Bangkok",
 	"Sydney",
 	"Vancouver",
 ];
@@ -23,11 +24,11 @@ const Locations = () => {
 				</h2>
 			</div>
 			{/* LOCATION CARDS */}
-			<div className="max-w-7xl mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+			<div className="max-w-7xl mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 				{cities.map((city, index) => (
 					<div
 						key={index}
-						className="bg-amber-700/85 rounded-lg p-4 m-2 text-center shadow-md">
+						className="bg-amber-700/85 rounded-lg p-4  text-center shadow-md">
 						<h3 className="text-stone-300 text-2xl font-bold uppercase tracking-wider">
 							{city}
 						</h3>

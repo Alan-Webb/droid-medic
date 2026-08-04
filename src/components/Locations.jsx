@@ -1,4 +1,5 @@
 import LocationsBG from "../assets/locationsBG.webp";
+import {FaLocationPin} from "react-icons/fa6";
 
 const cities = [
 	"London",
@@ -29,6 +30,7 @@ const Locations = () => {
 					<div
 						key={index}
 						className="bg-amber-700/85 rounded-lg p-4  text-center shadow-md">
+						<FaLocationPin />
 						<h3 className="text-stone-300 text-2xl font-bold uppercase tracking-wider">
 							{city}
 						</h3>

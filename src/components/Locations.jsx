@@ -20,7 +20,7 @@ const Locations = () => {
 			className="py-20 bg-cover bg-center">
 			<div className="max-w-7xl mx-auto">
 				{/* HEADING */}
-				<h2 className="bg-black/35 text-center text-4xl font-bold text-amber-500 tracking-wider">
+				<h2 className="text-center text-4xl font-bold text-amber-500 tracking-wider">
 					Our Store Locations
 				</h2>
 			</div>
@@ -30,7 +30,7 @@ const Locations = () => {
 					<div
 						key={index}
 						className="bg-amber-700/85 rounded-lg p-4  text-center shadow-md">
-						<FaLocationPin />
+						<FaLocationPin className="text-stone-300" />
 						<h3 className="text-stone-300 text-2xl font-bold uppercase tracking-wider">
 							{city}
 						</h3>

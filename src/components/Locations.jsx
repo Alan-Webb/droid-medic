@@ -29,8 +29,8 @@ const Locations = () => {
 				{cities.map((city, index) => (
 					<div
 						key={index}
-						className="bg-amber-700/85 rounded-lg p-4  text-center shadow-md">
-						<FaLocationPin className="text-stone-300" />
+						className="bg-amber-700/40 rounded-lg p-4  text-center shadow-md">
+						<FaLocationPin className="text-stone-300 mx-auto mb-2" />
 						<h3 className="text-stone-300 text-2xl font-bold uppercase tracking-wider">
 							{city}
 						</h3>

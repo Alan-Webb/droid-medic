@@ -6,10 +6,10 @@ const Contact = () => {
 			<div className="flex flex-col md:flex-row max-w-7xl mx-auto">
 				{/* LEFT SIDE CONTENT */}
 				<div className="px-8 md:px-4 pt-8 mx-6 w-full md:w-1/2 py-20 text-center">
-					<h2 className="text-4xl font-bold mb-2 mt-8 text-amber-600 tracking-wider">
+					<h2 className="text-4xl font-bold mb-2 mt-8 text-amber-600 tracking-wider pe-12">
 						Contact Us
 					</h2>
-					<p className="text-2xl">
+					<p className="text-2xl pe-12">
 						Software updates, battery replacement or a complete overhaul, our
 						engineers will give you expert advice on getting your droid back to
 						its best. The Droid Salon team is here to help. We pride ourselves

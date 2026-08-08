@@ -1,8 +1,13 @@
-
 const Faqs = () => {
-  return (
-    <div>Faqs</div>
-  )
-}
+	return (
+		<div>
+			<h2>FAQs</h2>
+			<div>
+				{/* Q&A ACCORDION */}
+				<div></div>
+			</div>
+		</div>
+	);
+};
 
-export default Faqs
+export default Faqs;

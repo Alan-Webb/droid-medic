@@ -5,6 +5,7 @@ const Faqs = () => {
 			<div>
 				{/* Q&A ACCORDION */}
 				<div></div>
+        <div></div>
 			</div>
 		</div>
 	);

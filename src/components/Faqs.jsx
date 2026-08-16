@@ -1,4 +1,4 @@
-const questionsAnswer = [
+const questionsAnswers = [
 	{
 		question: "What types of droids do you service?",
 		answer:
@@ -13,11 +13,6 @@ const questionsAnswer = [
 		question: "How long does a standard memory wipe take?",
 		answer:
 			"A standard memory wipe takes about 15 to 30 minutes. We always recommend backing up your droid's primary personality matrix before proceeding.",
-	},
-	{
-		question: "Can you upgrade my Astromech's starship interface software?",
-		answer:
-			"Absolutely. We stock the latest flight-computer drivers, hyperdrive navigation patches, and custom port adapters to ensure seamless vessel integration.",
 	},
 	{
 		question: "What is included in a routine droid tune-up?",

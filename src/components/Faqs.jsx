@@ -57,11 +57,6 @@ const questionsAnswer = [
 			"You can purchase an external datapad backup link at our shop, or our technicians can create a secure cloud/drive snapshot for you during your service appointment.",
 	},
 	{
-		question: "Do you fix water or environmental damage?",
-		answer:
-			"Yes. We offer complete corrosion cleanup, hydro-seal replacements, and circuit board desoldering for droids exposed to extreme weather, sand, or submersion.",
-	},
-	{
 		question:
 			"What languages can you translate or upload to my Protocol Droid?",
 		answer:

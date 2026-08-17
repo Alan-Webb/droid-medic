@@ -49,7 +49,7 @@ const questionsAnswers = [
 	{
 		question: "How do I back up my droid's personality matrix?",
 		answer:
-			"You can purchase an external datapad backup link at our shop, or our technicians can create a secure cloud/drive snapshot for you during your service appointment.",
+			"You can purchase an external data pad backup link at our shop, or our technicians can create a secure cloud/drive snapshot for you during your service appointment.",
 	},
 	{
 		question:

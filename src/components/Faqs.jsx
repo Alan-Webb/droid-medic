@@ -84,12 +84,6 @@ const questionsAnswers = [
 			"We recommend a routine service every 6 to 12 months, or every 1,000 operational hours, depending on the environment your droid works in.",
 	},
 	{
-		question:
-			"Can you restore a droid that has been fried by an Ion Cannon or Jawa Blaster?",
-		answer:
-			"In most cases, yes. Ion damage typically destroys fuse relays and primary power couplings, which can be replaced without wiping the central core if caught quickly.",
-	},
-	{
 		question: "How do I schedule an appointment?",
 		answer:
 			"You can book directly through our online holonet portal, drop by our workshop during standard planetary operating hours, or call our automated dispatch line.",

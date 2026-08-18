@@ -2,7 +2,7 @@ const questionsAnswers = [
 	{
 		question: "What types of droids do you service?",
 		answer:
-			"We service almost all classifications, including Astromech (R-series), Protocol (3PO-series), Pit Droids, Utility Droids, and select Security/Battle models. If it has a central processing unit and a power cell, we can fix it.",
+			"We service almost all classifications, including R-series, Protocol (3PO-series), Pit Droids, Utility Droids, and select Security/Battle models. If it has a central processing unit and a power cell, we can fix it.",
 	},
 	{
 		question: "Do you offer emergency roadside or field repair services?",
@@ -68,12 +68,6 @@ const questionsAnswers = [
 			"Yes! We offer custom bodywork, high-durability thermal powder coating, custom decal application, and weather-proofing treatments.",
 	},
 	{
-		question:
-			"Why is my droid making a high-pitched squealing sound when moving?",
-		answer:
-			"This usually points to worn servo-actuators or dirt buildup in the ball joints. A quick hydraulic flush and bearing replacement usually solves the issue.",
-	},
-	{
 		question: "Do you accept trade-ins or buy scrap droids for parts?",
 		answer:
 			"We buy old, non-functioning droids, scrap metal, and spare motivators for shop credit or local currency, provided you hold valid proof of ownership.",
@@ -86,7 +80,7 @@ const questionsAnswers = [
 	{
 		question: "How do I schedule an appointment?",
 		answer:
-			"You can book directly through our online holonet portal, drop by our workshop during standard planetary operating hours, or call our automated dispatch line.",
+			"You can book directly through our online portal, drop by our workshop during standard planetary operating hours, or call our automated dispatch line.",
 	},
 ];
 

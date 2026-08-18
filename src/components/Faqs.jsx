@@ -1,18 +1,15 @@
 const questionsAnswers = [
 	{
+		id: 1,
 		question: "What types of droids do you service?",
 		answer:
 			"We service almost all classifications, including R-series, Protocol (3PO-series), Pit Droids, Utility Droids, and select Security/Battle models. If it has a central processing unit and a power cell, we can fix it.",
 	},
 	{
+		id: 2,
 		question: "Do you offer emergency roadside or field repair services?",
 		answer:
 			"Yes! Our mobile repair skiffs are available for field calls within sector limits. For stranded travelers, we offer 24/7 emergency dispatch.",
-	},
-	{
-		question: "How long does a standard memory wipe take?",
-		answer:
-			"A standard memory wipe takes about 15 to 30 minutes. We always recommend backing up your droid's primary personality matrix before proceeding.",
 	},
 	{
 		question: "What is included in a routine droid tune-up?",

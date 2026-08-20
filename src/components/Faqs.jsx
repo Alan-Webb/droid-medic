@@ -55,12 +55,6 @@ const questionsAnswers = [
 		answer:
 			"We buy old, non-functioning droids, scrap metal, and spare motivators for shop credit or local currency, provided you hold valid proof of ownership.",
 	},
-	{
-		id: 10,
-		question: "How do I schedule an appointment?",
-		answer:
-			"You can book directly through our online portal, drop by our workshop during standard planetary operating hours, or call our automated dispatch line.",
-	},
 ];
 
 const Faqs = () => {

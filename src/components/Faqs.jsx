@@ -57,7 +57,14 @@ const Faqs = () => {
 			<h2>FAQs</h2>
 			<div>
 				{/* Q&A ACCORDION */}
-				<div></div>
+				<div>
+					{questionsAnswers.map((item) => (
+						<div key={item.id}>
+							<h3>{item.question}</h3>
+						</div>
+					))}
+				</div>
+				{/* Other Content */}
 				<div></div>
 			</div>
 		</div>

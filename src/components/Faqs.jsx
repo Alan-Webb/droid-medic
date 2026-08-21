@@ -49,12 +49,6 @@ const questionsAnswers = [
 		answer:
 			"Yes! We offer custom bodywork, high-durability thermal powder coating, custom decal application, and weather-proofing treatments.",
 	},
-	{
-		id: 9,
-		question: "Do you accept trade-ins or buy scrap droids for parts?",
-		answer:
-			"We buy old, non-functioning droids, scrap metal, and spare motivators for shop credit or local currency, provided you hold valid proof of ownership.",
-	},
 ];
 
 const Faqs = () => {

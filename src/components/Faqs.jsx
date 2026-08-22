@@ -60,7 +60,10 @@ const Faqs = () => {
 				<div>
 					{questionsAnswers.map((item) => (
 						<div key={item.id}>
-							<h3>{item.question}</h3>
+							<button>
+								<span>{item.question}</span>
+							</button>
+							<p>{item.answer}</p>
 						</div>
 					))}
 				</div>

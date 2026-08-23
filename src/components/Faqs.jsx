@@ -1,3 +1,5 @@
+import {FaChevronCircleDown} from "react-icons/fa";
+
 const questionsAnswers = [
 	{
 		id: 1,
@@ -62,6 +64,7 @@ const Faqs = () => {
 						<div key={item.id}>
 							<button>
 								<span>{item.question}</span>
+								<FaChevronCircleDown />
 							</button>
 							<p>{item.answer}</p>
 						</div>

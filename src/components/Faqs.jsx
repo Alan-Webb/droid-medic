@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {FaChevronCircleDown} from "react-icons/fa";
 
 const questionsAnswers = [
@@ -54,8 +55,10 @@ const questionsAnswers = [
 ];
 
 const Faqs = () => {
+	const [isOpen, setIsOpen] = useState()
+	
 	return (
-		<div>
+		<div className="bg-stone-300">
 			<h2>FAQs</h2>
 			<div>
 				{/* Q&A ACCORDION */}

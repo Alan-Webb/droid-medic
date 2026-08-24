@@ -1,5 +1,5 @@
-import { useState } from "react";
-import {FaChevronCircleDown} from "react-icons/fa";
+import {useState} from "react";
+import {FaChevronCircleDown, FaChevronCircleUp} from "react-icons/fa";
 
 const questionsAnswers = [
 	{
@@ -55,8 +55,8 @@ const questionsAnswers = [
 ];
 
 const Faqs = () => {
-	const [isOpen, setIsOpen] = useState()
-	
+	const [isQuestionOpen, setIsQuestionOpen] = useState(false);
+
 	return (
 		<div className="bg-stone-300">
 			<h2>FAQs</h2>
@@ -65,9 +65,13 @@ const Faqs = () => {
 				<div>
 					{questionsAnswers.map((item) => (
 						<div key={item.id}>
-							<button>
+							<button onClick={() => setIsQuestionOpen(!isQuestionOpen)}>
 								<span>{item.question}</span>
-								<FaChevronCircleDown />
+								{isQuestionOpen ? (
+									<FaChevronCircleUp />
+								) : (
+									<FaChevronCircleDown />
+								)}
 							</button>
 							<p>{item.answer}</p>
 						</div>

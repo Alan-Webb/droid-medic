@@ -68,12 +68,12 @@ const Faqs = () => {
 							<button onClick={() => setIsQuestionOpen(!isQuestionOpen)}>
 								<span>{item.question}</span>
 								{isQuestionOpen ? (
-									<FaChevronCircleUp />
+									<FaChevronCircleUp className="cursor-pointer" />
 								) : (
-									<FaChevronCircleDown />
+									<FaChevronCircleDown className="cursor-pointer" />
 								)}
 							</button>
-							<p>{item.answer}</p>
+							{isQuestionOpen && <p>{item.answer}</p>}
 						</div>
 					))}
 				</div>

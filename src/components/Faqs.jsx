@@ -65,12 +65,14 @@ const Faqs = () => {
 				<div>
 					{questionsAnswers.map((item) => (
 						<div key={item.id}>
-							<button onClick={() => setIsQuestionOpen(!isQuestionOpen)}>
+							<button
+								onClick={() => setIsQuestionOpen(!isQuestionOpen)}
+								className="flex justify-between px-2 items-center">
 								<span>{item.question}</span>
 								{isQuestionOpen ? (
-									<FaChevronCircleUp className="cursor-pointer" />
+									<FaChevronCircleUp className="text-xl text-amber-700 m-2 cursor-pointer" />
 								) : (
-									<FaChevronCircleDown className="cursor-pointer" />
+									<FaChevronCircleDown className="text-xl text-amber-700 m-2 cursor-pointer" />
 								)}
 							</button>
 							{isQuestionOpen && <p>{item.answer}</p>}

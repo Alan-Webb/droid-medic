@@ -58,8 +58,8 @@ const Faqs = () => {
 	const [isQuestionOpen, setIsQuestionOpen] = useState(false);
 
 	return (
-		<div className="bg-stone-300">
-			<h2>FAQs</h2>
+		<div className="bg-stone-300 py-20">
+			<h2 className="text-2xl font-bold mb-4">FAQs</h2>
 			<div>
 				{/* Q&A ACCORDION */}
 				<div>
@@ -75,7 +75,7 @@ const Faqs = () => {
 									<FaChevronCircleDown className="text-xl text-amber-700 m-2 cursor-pointer" />
 								)}
 							</button>
-							{isQuestionOpen && <p>{item.answer}</p>}
+							{isQuestionOpen && <p className="pl-4">{item.answer}</p>}
 						</div>
 					))}
 				</div>

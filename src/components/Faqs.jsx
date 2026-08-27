@@ -60,9 +60,9 @@ const Faqs = () => {
 	return (
 		<div className="bg-stone-300 py-20">
 			<h2 className="text-2xl font-bold mb-4">FAQs</h2>
-			<div>
+			<div className="flex flex-col lg:flex-row">
 				{/* Q&A ACCORDION */}
-				<div>
+				<div className="w-full lg:w-3/4">
 					{questionsAnswers.map((item) => (
 						<div key={item.id}>
 							<button

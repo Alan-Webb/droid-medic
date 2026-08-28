@@ -80,7 +80,7 @@ const Faqs = () => {
 					))}
 				</div>
 				{/* Other Content */}
-				<div></div>
+				<div className="w-full lg:w-1/4"></div>
 			</div>
 		</div>
 	);

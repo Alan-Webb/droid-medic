@@ -79,8 +79,17 @@ const Faqs = () => {
 						</div>
 					))}
 				</div>
-				{/* Other Content */}
-				<div className="w-full lg:w-1/4"></div>
+				{/* Right Side Content */}
+				<div className="w-full lg:w-1/4">
+					<div>
+						<h3 className="text-lg font-bold mb-2">Still have questions?</h3>
+						<p className="mb-4">
+							If you didn't find the answer you're looking for, please reach out
+							to our support team
+						</p>
+						<button className="bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer"></button>
+					</div>
+				</div>
 			</div>
 		</div>
 	);

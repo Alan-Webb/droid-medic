@@ -87,7 +87,9 @@ const Faqs = () => {
 							If you didn't find the answer you're looking for, please reach out
 							to our support team
 						</p>
-						<button className="bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer"></button>
+						<button className="bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
+							Contact Support
+						</button>
 					</div>
 				</div>
 			</div>

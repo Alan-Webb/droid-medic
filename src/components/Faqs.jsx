@@ -1,5 +1,9 @@
 import {useState} from "react";
-import {FaChevronCircleDown, FaChevronCircleUp} from "react-icons/fa";
+import {
+	FaChevronCircleDown,
+	FaChevronCircleUp,
+	FaEnvelope,
+} from "react-icons/fa";
 
 const questionsAnswers = [
 	{
@@ -88,6 +92,7 @@ const Faqs = () => {
 							to our support team
 						</p>
 						<button className="bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
+							<FaEnvelope />
 							Contact Support
 						</button>
 					</div>

@@ -3,6 +3,7 @@ import {
 	FaChevronCircleDown,
 	FaChevronCircleUp,
 	FaEnvelope,
+	FaPhone,
 } from "react-icons/fa";
 
 const questionsAnswers = [
@@ -34,7 +35,7 @@ const questionsAnswers = [
 		id: 5,
 		question: "Can I upgrade my droid's power cell for longer battery life?",
 		answer:
-			"Definitely. We offer upgrades ranging from high-capacity Fusion Cells to long-lasting Cryo-Batteries, complete with heat-sink modifications to prevent overheating.",
+			"Definitely. We offer upgrades ranging from high-capacity Fusion Cells to long-lasting batteries, complete with heat-sink modifications to prevent overheating.",
 	},
 	{
 		id: 6,
@@ -91,10 +92,16 @@ const Faqs = () => {
 							If you didn't find the answer you're looking for, please reach out
 							to our support team
 						</p>
-						<button className="bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
-							<FaEnvelope />
-							Contact Support
-						</button>
+						<div className="flex flex-col space-y-3 me-8">
+							<button className="flex space-x-2 w-50 bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
+								<FaEnvelope className="pt-1" />
+								<span>info@droidsalon.co.uk</span>
+							</button>
+							<button className="flex space-x-2 w-50 bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
+								<FaPhone className="pt-1" />
+								<span>02087010993</span>
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>

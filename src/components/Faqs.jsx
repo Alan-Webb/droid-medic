@@ -93,8 +93,8 @@ const Faqs = () => {
 							to our support team
 						</p>
 						<div className="flex flex-col space-y-3 me-8">
-							<button className="flex space-x-2 w-50 bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
-								<FaEnvelope className="pt-1" />
+							<button className="flex items-center space-x-2 w-50 bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
+								<FaEnvelope  />
 								<span>info@droidsalon.co.uk</span>
 							</button>
 							<button className="flex space-x-2 w-50 bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">

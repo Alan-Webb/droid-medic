@@ -94,11 +94,11 @@ const Faqs = () => {
 						</p>
 						<div className="flex flex-col space-y-3 me-8">
 							<button className="flex items-center space-x-2 w-50 bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
-								<FaEnvelope  />
+								<FaEnvelope />
 								<span>info@droidsalon.co.uk</span>
 							</button>
-							<button className="flex space-x-2 w-50 bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
-								<FaPhone className="pt-1" />
+							<button className="flex items-center space-x-2 w-50 bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
+								<FaPhone />
 								<span>02087010993</span>
 							</button>
 						</div>

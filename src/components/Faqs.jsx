@@ -64,10 +64,10 @@ const Faqs = () => {
 
 	return (
 		<div className="bg-stone-300 py-20">
-			<h2 className="text-2xl font-bold mb-4">FAQs</h2>
+			<h2 className="text-2xl font-bold text-center">FAQs</h2>
 			<div className="flex flex-col lg:flex-row">
 				{/* Q&A ACCORDION */}
-				<div className="w-full lg:w-3/4">
+				<div className="w-full lg:w-3/4 ms-12">
 					{questionsAnswers.map((item) => (
 						<div key={item.id}>
 							<button
@@ -85,7 +85,7 @@ const Faqs = () => {
 					))}
 				</div>
 				{/* Right Side Content */}
-				<div className="w-full lg:w-1/4">
+				<div className="w-full lg:w-1/4 me-12">
 					<div className="bg-amber-500 p-8 rounded-xl mx-4">
 						<h3 className="text-xl font-bold mb-2">Still have questions?</h3>
 						<p className="text-lg mb-4">

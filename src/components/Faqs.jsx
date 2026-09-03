@@ -87,8 +87,8 @@ const Faqs = () => {
 				{/* Right Side Content */}
 				<div className="w-full lg:w-1/4">
 					<div className="bg-amber-500 p-8 rounded-xl mx-4">
-						<h3 className="text-lg font-bold mb-2">Still have questions?</h3>
-						<p className="mb-4">
+						<h3 className="text-xl font-bold mb-2">Still have questions?</h3>
+						<p className="text-lg mb-4">
 							If you didn't find the answer you're looking for, please reach out
 							to our support team
 						</p>

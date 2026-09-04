@@ -67,42 +67,44 @@ const Faqs = () => {
 			<h2 className="text-center text-4xl font-bold text-amber-600 tracking-wider">
 				FAQs
 			</h2>
-			<div className="flex flex-col lg:flex-row">
-				{/* Q&A ACCORDION */}
-				<div className="w-full lg:w-3/4 ms-8">
-					{questionsAnswers.map((item) => (
-						<div key={item.id}>
-							<button
-								onClick={() => setIsQuestionOpen(!isQuestionOpen)}
-								className="flex justify-between px-2 items-center">
-								<span>{item.question}</span>
-								{isQuestionOpen ? (
-									<FaChevronCircleUp className="text-xl text-amber-700 m-2 cursor-pointer" />
-								) : (
-									<FaChevronCircleDown className="text-xl text-amber-700 m-2 cursor-pointer" />
-								)}
-							</button>
-							{isQuestionOpen && <p className="pl-4">{item.answer}</p>}
-						</div>
-					))}
-				</div>
-				{/* Right Side Content */}
-				<div className="w-full lg:w-1/4 me-8">
-					<div className="bg-amber-500 p-8 rounded-xl mx-4">
-						<h3 className="text-xl font-bold mb-2">Still have questions?</h3>
-						<p className="text-lg mb-4">
-							If you didn't find the answer you're looking for, please reach out
-							to our support team
-						</p>
-						<div className="flex flex-col space-y-3 me-8">
-							<button className="flex items-center space-x-2 w-50 bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
-								<FaEnvelope />
-								<span>info@droidsalon.co.uk</span>
-							</button>
-							<button className="flex items-center space-x-2 w-50 bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
-								<FaPhone />
-								<span>02087010993</span>
-							</button>
+			<div>
+				<div className="flex flex-col lg:flex-row">
+					{/* Q&A ACCORDION */}
+					<div className="w-full lg:w-3/4 ms-8">
+						{questionsAnswers.map((item) => (
+							<div key={item.id}>
+								<button
+									onClick={() => setIsQuestionOpen(!isQuestionOpen)}
+									className="flex justify-between px-2 items-center">
+									<span>{item.question}</span>
+									{isQuestionOpen ? (
+										<FaChevronCircleUp className="text-xl text-amber-700 m-2 cursor-pointer" />
+									) : (
+										<FaChevronCircleDown className="text-xl text-amber-700 m-2 cursor-pointer" />
+									)}
+								</button>
+								{isQuestionOpen && <p className="pl-4">{item.answer}</p>}
+							</div>
+						))}
+					</div>
+					{/* Right Side Content */}
+					<div className="w-full lg:w-1/4 me-8">
+						<div className="bg-amber-500 p-8 rounded-xl mx-4">
+							<h3 className="text-xl font-bold mb-2">Still have questions?</h3>
+							<p className="text-lg mb-4">
+								If you didn't find the answer you're looking for, please reach
+								out to our support team
+							</p>
+							<div className="flex flex-col space-y-3 me-8">
+								<button className="flex items-center space-x-2 w-50 bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
+									<FaEnvelope />
+									<span>info@droidsalon.co.uk</span>
+								</button>
+								<button className="flex items-center space-x-2 w-50 bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
+									<FaPhone />
+									<span>02087010993</span>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>

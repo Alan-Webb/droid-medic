@@ -59,9 +59,26 @@ const questionsAnswers = [
 	},
 ];
 
-const Faqs = () => {
-	const [isQuestionOpen, setIsQuestionOpen] = useState(false);
+const FaqItem = ({question, answer}) => {
+	const [isOpen, setIsOpen] = useState(false);
+	return (
+		<div>
+			<button
+				onClick={() => setIsOpen(!isOpen)}
+				className="flex justify-between px-2 items-center">
+				<span className="text-xl">{question}</span>
+				{isOpen ? (
+					<FaChevronCircleUp className="text-xl text-amber-700 m-2 cursor-pointer" />
+				) : (
+					<FaChevronCircleDown className="text-xl text-amber-700 m-2 cursor-pointer" />
+				)}
+			</button>
+			{isOpen && <p className="pl-4">{answer}</p>}
+		</div>
+	);
+};
 
+const Faqs = () => {
 	return (
 		<div className="bg-stone-300 py-20">
 			<h2 className="text-center text-4xl font-bold text-amber-600 tracking-wider">
@@ -70,21 +87,13 @@ const Faqs = () => {
 			<div className="max-w-7xl mx-auto">
 				<div className="flex flex-col lg:flex-row">
 					{/* Q&A ACCORDION */}
-					<div className="w-full lg:w-3/4 ms-8">
+					<div className="w-full lg:w-3/4 ms-8 space-y-6">
 						{questionsAnswers.map((item) => (
-							<div key={item.id}>
-								<button
-									onClick={() => setIsQuestionOpen(!isQuestionOpen)}
-									className="flex justify-between px-2 items-center">
-									<span className="text-xl">{item.question}</span>
-									{isQuestionOpen ? (
-										<FaChevronCircleUp className="text-xl text-amber-700 m-2 cursor-pointer" />
-									) : (
-										<FaChevronCircleDown className="text-xl text-amber-700 m-2 cursor-pointer" />
-									)}
-								</button>
-								{isQuestionOpen && <p className="pl-4">{item.answer}</p>}
-							</div>
+							<FaqItem
+								key={item.id}
+								question={item.question}
+								answer={item.answer}
+							/>
 						))}
 					</div>
 					{/* Right Side Content */}

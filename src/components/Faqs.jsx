@@ -67,7 +67,7 @@ const Faqs = () => {
 			<h2 className="text-center text-4xl font-bold text-amber-600 tracking-wider">
 				FAQs
 			</h2>
-			<div>
+			<div className="max-w-7xl mx-auto">
 				<div className="flex flex-col lg:flex-row">
 					{/* Q&A ACCORDION */}
 					<div className="w-full lg:w-3/4 ms-8">
@@ -76,7 +76,7 @@ const Faqs = () => {
 								<button
 									onClick={() => setIsQuestionOpen(!isQuestionOpen)}
 									className="flex justify-between px-2 items-center">
-									<span>{item.question}</span>
+									<span className="text-xl">{item.question}</span>
 									{isQuestionOpen ? (
 										<FaChevronCircleUp className="text-xl text-amber-700 m-2 cursor-pointer" />
 									) : (

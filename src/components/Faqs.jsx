@@ -97,7 +97,7 @@ const Faqs = () => {
 						))}
 					</div>
 					{/* Right Side Content */}
-					<div className="w-full lg:w-1/4 me-8">
+					<div className="w-full lg:w-1/4 me-8 mt-6 lg:mt-0 lg:pl-8">
 						<div className="bg-amber-500 p-8 rounded-xl mx-4">
 							<h3 className="text-xl font-bold mb-2">Still have questions?</h3>
 							<p className="text-lg mb-4">

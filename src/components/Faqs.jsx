@@ -87,7 +87,7 @@ const Faqs = () => {
 			<div className="max-w-7xl mx-auto">
 				<div className="flex flex-col lg:flex-row">
 					{/* Q&A ACCORDION */}
-					<div className="w-full lg:w-3/4 ms-8 space-y-6">
+					<div className="w-full lg:w-3/4 ms-8 space-y-6 px-8">
 						{questionsAnswers.map((item) => (
 							<FaqItem
 								key={item.id}

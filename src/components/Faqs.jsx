@@ -87,7 +87,7 @@ const Faqs = () => {
 			<div className="max-w-7xl mx-auto">
 				<div className="flex flex-col lg:flex-row">
 					{/* Q&A ACCORDION */}
-					<div className="w-full lg:w-3/4 ms-8 space-y-6 px-8">
+					<div className="w-full lg:w-3/4 ms-8 space-y-6 px-8 lg:px-0">
 						{questionsAnswers.map((item) => (
 							<FaqItem
 								key={item.id}
@@ -98,7 +98,7 @@ const Faqs = () => {
 					</div>
 					{/* Right Side Content */}
 					<div className="w-full lg:w-1/4 me-8 mt-6 lg:mt-0 lg:pl-8">
-						<div className="bg-amber-500 p-8 rounded-xl mx-4">
+						<div className="bg-amber-500 p-8 rounded-xl mx-4 px-8 lg:px-0">
 							<h3 className="text-xl font-bold mb-2">Still have questions?</h3>
 							<p className="text-lg mb-4">
 								If you didn't find the answer you're looking for, please reach

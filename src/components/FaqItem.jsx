@@ -3,6 +3,7 @@ import {FaChevronCircleDown, FaChevronCircleUp} from "react-icons/fa";
 
 const FaqItem = ({question, answer}) => {
 	const [isOpen, setIsOpen] = useState(false);
+
 	return (
 		<div>
 			<button

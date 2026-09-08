@@ -1,4 +1,3 @@
-import {useState} from "react";
 import FaqItem from "./FaqItem";
 import {FaEnvelope, FaPhone} from "react-icons/fa";
 
@@ -11,7 +10,7 @@ const questionsAnswers = [
 	},
 	{
 		id: 2,
-		question: "Do you offer emergency roadside or field repair services?",
+		question: "Do you offer emergency roadside or field repair?",
 		answer:
 			"Yes! Our mobile repair skiffs are available for field calls within sector limits. For stranded travelers, we offer 24/7 emergency dispatch.",
 	},
@@ -29,42 +28,28 @@ const questionsAnswers = [
 	},
 	{
 		id: 5,
-		question: "Can I upgrade my droid's power cell for longer battery life?",
+		question: "Can I upgrade my droid's power cell?",
 		answer:
 			"Definitely. We offer upgrades ranging from high-capacity Fusion Cells to long-lasting batteries, complete with heat-sink modifications to prevent overheating.",
 	},
 	{
 		id: 6,
-		question:
-			"Can you install combat or defense modifications on my utility droid?",
+		question: "Can you install combat mods on a utility droid?",
 		answer:
 			"We offer legal defense upgrades, such as reinforced plating, shock-prod attachments, and upgraded perimeter sensors. Military-grade combat reprogramming requires proper sector authorization permits.",
-	},
-	{
-		id: 7,
-		question:
-			"What languages can you translate or upload to my Protocol Droid?",
-		answer:
-			"Our language module database contains over 6 million forms of communication, including obscure alien dialects, binary, and ancient scripts.",
-	},
-	{
-		id: 8,
-		question: "Can you customize the exterior paint and chassis of my droid?",
-		answer:
-			"Yes! We offer custom bodywork, high-durability thermal powder coating, custom decal application, and weather-proofing treatments.",
 	},
 ];
 
 const Faqs = () => {
 	return (
-		<div className="bg-stone-300 py-20">
-			<h2 className="text-center text-4xl font-bold text-amber-600 tracking-wider">
+		<div className="bg-stone-300 py-24">
+			<h2 className="text-center text-4xl font-bold text-amber-600 tracking-wider mb-8">
 				FAQs
 			</h2>
 			<div className="max-w-7xl mx-auto">
 				<div className="flex flex-col lg:flex-row">
 					{/* Q&A ACCORDION */}
-					<div className="w-full lg:w-3/4 ms-8 space-y-6 px-8 lg:px-0">
+					<div className="w-full lg:w-3/4 ms-8 space-y-8 px-8 lg:px-0">
 						{questionsAnswers.map((item) => (
 							<FaqItem
 								key={item.id}
@@ -73,15 +58,15 @@ const Faqs = () => {
 							/>
 						))}
 					</div>
-					{/* Right Side Content */}
-					<div className="w-full lg:w-1/4 me-8 mt-6 lg:mt-0 lg:pl-8">
-						<div className="bg-amber-500 p-8 rounded-xl mx-4 px-8 lg:px-0">
+					{/* RIGHT SIDE CONTENT */}
+					<div className="w-full lg:w-1/4 me-8 mt-6 lg:mt-0 lg:pl-8 me-24">
+						<div className="bg-amber-500 p-8 rounded-xl mx-4 px-8 lg:px-0 text-center">
 							<h3 className="text-xl font-bold mb-2">Still have questions?</h3>
-							<p className="text-lg mb-4">
+							<p className="text-lg m-4">
 								If you didn't find the answer you're looking for, please reach
 								out to our support team
 							</p>
-							<div className="flex flex-col space-y-3 me-8">
+							<div className="flex flex-col items-center space-y-3">
 								<button className="flex items-center space-x-2 w-50 bg-amber-600 text-white px-4 py-2 rounded-xl cursor-pointer">
 									<FaEnvelope />
 									<span>info@droidsalon.co.uk</span>
